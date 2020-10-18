@@ -24,12 +24,13 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是邵文
+* 大家好，我是--邵文
 * 正在思考，如何攻克地心引力；
 * Trexling，智商二百五，膜拜，极度膜拜；！
 */
 
-/* 现在，就是见证奇迹的时刻！ */
+
+/* 首先，就是见证奇迹的时刻！ */
 * {
   transition: all .3s;
 }
@@ -51,8 +52,7 @@ html {
 .styleEditor {
   height: 45vh;
 }
-
-
+/* 高亮 */
 .token.selector{
   color: rgb(133,153,0);
 }
@@ -75,7 +75,6 @@ html{
   transform: rotateX(-10deg) translateZ(-50px) ;
 }
 
-
 /* 接下来大佬给我准备一个小本子 */
 .resumeEditor{
   position: fixed;
@@ -91,14 +90,14 @@ html{
 
 `,
           `
-/* ********************
- * *******************
- * 简单，打个响指就行了
+/* 好像还差点什么
+ * 对了，这是 Markdown 格式的，改下格式先，
+ * 用开源工具翻译成 HTML
  */
 `
           ,
           `
-/* 再对 HTML 加点样式 */
+/* 再 加点样式 */
 .resumeEditor{
   padding: 2em;
 }
@@ -130,8 +129,8 @@ html{
 `],
         currentMarkdown: '',
         fullMarkdown: `邵文
-
 ----
+
 射频天线工程师，资深峡谷王者，现在在桂电向大佬室友学知识。
 
 技能
@@ -156,7 +155,9 @@ html{
 * 无
 * *****
 
-> 如果你喜欢我，赶紧拜我为师！
+> 哈哈，搞笑一波，致于最好的朋友~  
+>                             -----Trexling 
+
 
 `
       }
