@@ -24,22 +24,22 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘
-* 你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* 大家好，我是--邵文
+* 正在思考，如何攻克地心引力；
+* Trexling，智商二百五，膜拜，极度膜拜；！
 */
 
-/* 首先给所有元素加上过渡效果 */
+
+/* 首先，就是见证奇迹的时刻！ */
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* 来一个响指~ */
 html {
   color: rgb(222,222,222);
   background: rgb(0,43,54);
 }
-/* 文字离边框太近了 */
+/* 再来一个响指~ */
 .styleEditor {
   padding: .5em;
   border: 1px solid;
@@ -48,11 +48,11 @@ html {
   margin: 2.5vh 5vw;
   height: 90vh;
 }
-/* 太高了 */
+/* 再。。。。 */
 .styleEditor {
   height: 45vh;
 }
-/* 代码高亮 */
+/* 高亮 */
 .token.selector{
   color: rgb(133,153,0);
 }
@@ -66,7 +66,7 @@ html {
   color: rgb(42,161,152);
 }
 
-/* 加点 3D 效果呗 */
+/* 纸片人要翻转了~ */
 html{
   perspective: 1000px;
 }
@@ -75,7 +75,7 @@ html{
   transform: rotateX(-10deg) translateZ(-50px) ;
 }
 
-/* 接下来我给自己准备一个编辑器 */
+/* 接下来大佬给我准备一个小本子 */
 .resumeEditor{
   position: fixed;
   top: 50%; left: 0;
@@ -85,19 +85,19 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
+/* 好了，我开始吹牛逼了 */
 
 
 `,
           `
-/* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
- * 简单，用开源工具翻译成 HTML 就行了
+/* 好像还差点什么
+ * 对了，这是 Markdown 格式的，改下格式先，
+ * 用开源工具翻译成 HTML
  */
 `
           ,
           `
-/* 再对 HTML 加点样式 */
+/* 再 加点样式 */
 .resumeEditor{
   padding: 2em;
 }
@@ -128,36 +128,36 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `邵文
 ----
 
-资深前端工程师，资深前端讲师
-现在在 [饥人谷](http://jirengu.com) 教前端课程。
+射频天线工程师，资深峡谷王者，现在在桂电向大佬室友学知识。
 
 技能
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* 匹配电路
+* 天线设计
+* 滤波器设计
+* 闪现送人头
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 河南
+2. 北京
+3. 桂林
+4. 八方四海
 
-链接
+联系方式
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* 无
+* *****
 
-> 如果你喜欢这个效果，
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+> 哈哈，搞笑一波，致于最好的朋友~  
+>                             -----Trexling 
+
 
 `
       }
